@@ -57,7 +57,7 @@ export default function Home() {
             </h3>
             <p className=" text-medium py-2 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
               Software Engineer providing services for programming and design
-              content needs. join me down below and let's get cracking
+              content needs. join me down below and let&apos;s get cracking
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-700">
@@ -66,7 +66,7 @@ export default function Home() {
             <AiFillYoutube />
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 ">
-            <Image src={deved} layout="fill" objectFit="cover" />
+            <Image src={deved} alt="3dpict" layout="fill" objectFit="cover" />
           </div>
         </section>
         {/*   */}
@@ -75,7 +75,7 @@ export default function Home() {
             <h3 className="text-3xl py-1">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -89,7 +89,7 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className="text-center  mx-auto shadow-lg p-10 rounded-xl my-10 ">
               <div className="flex justify-center">
-                <Image src={design} width={100} />
+                <Image src={design} alt="design" width={100} />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Beautiful Designs
@@ -105,7 +105,7 @@ export default function Home() {
             </div>
             <div className="text-center  mx-auto shadow-lg p-10 rounded-xl my-10 ">
               <div className="flex justify-center">
-                <Image src={code} width={100} />
+                <Image src={code} alt="code" width={100} />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Beautiful Designs
@@ -121,7 +121,7 @@ export default function Home() {
             </div>
             <div className="text-center  mx-auto shadow-lg p-10 rounded-xl my-10 ">
               <div className="flex justify-center">
-                <Image src={consulting} width={100} />
+                <Image src={consulting} alt="consulting" width={100} />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Beautiful Designs
@@ -142,7 +142,7 @@ export default function Home() {
             <h3 className=" text-3xl py-2">Porfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer , I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -157,6 +157,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web1}
+                alt="web1"
                 className="rouded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -166,6 +167,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web2}
+                alt="web2"
                 className="rouded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -175,6 +177,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web3}
+                alt="web3"
                 className="rouded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -184,6 +187,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web4}
+                alt="web4"
                 className="rouded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -193,6 +197,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web5}
+                alt="web5"
                 className="rouded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -202,6 +207,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web6}
+                alt="web6"
                 className="rouded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
