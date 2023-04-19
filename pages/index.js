@@ -162,7 +162,7 @@ export default function Home() {
               programming and teaching.
             </p>
           </div>
-          <h3 className=" text-3xl mt-4 py-2">Industry Project's</h3>
+          <h3 className=" text-3xl mt-4 py-2">Industry Project&apos;s</h3>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <ProjectCard
               img={zappy}
