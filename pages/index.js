@@ -1,22 +1,24 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
 import Image from "next/image";
-import deved from "../public/dev-ed-wave.png";
+import deved from "../public/profile.jpg";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import web1 from "../public/web1.png";
+import zappy from "../public/projects/zappy.png";
 import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+// import web3 from "../public/web3.png";
+// import web4 from "../public/web4.png";
+// import web5 from "../public/web5.png";
+// import web6 from "../public/web6.png";
 import { useState } from "react";
+import ProjectCard from "@/modules/ProjectCard";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -53,7 +55,7 @@ export default function Home() {
               Peter Christian Magalong
             </h2>
             <h3 className=" text-2xl py-2 md:text-3xl">
-              Developer | Software Engineer
+              Full Stack Developer | Software Engineer
             </h3>
             <p className=" text-medium py-2 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
               Software Engineer providing services for programming and design
@@ -87,7 +89,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center  mx-auto shadow-lg p-10 rounded-xl my-10 ">
+            <div className="text-center  mx-auto shadow-lg p-10 rounded-xl my-10 w-4/5">
               <div className="flex justify-center">
                 <Image src={design} alt="design" width={100} />
               </div>
@@ -108,16 +110,23 @@ export default function Home() {
                 <Image src={code} alt="code" width={100} />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">
-                Beautiful Designs
+                Back-End Services
               </h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
+                Creating web services and APIs used by front-end developers and
+                mobile application developers..
               </p>
-              <h4 className="py-4 text-teal-600">Disign tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <h4 className="py-4 text-teal-600">Technology I use</h4>
+              <p className="text-gray-800 py-1">
+                Prog.Laguage: Node js, TypeScript , etc.
+              </p>
+              <p className="text-gray-800 py-1">
+                Database: Prisma , Mysql, TypeOrm, Dynamo DB , etc.
+              </p>
+
+              <p className="text-gray-800 py-1">
+                Services: AWS, GoogleCloud , etc.
+              </p>
             </div>
             <div className="text-center  mx-auto shadow-lg p-10 rounded-xl my-10 ">
               <div className="flex justify-center">
@@ -153,67 +162,21 @@ export default function Home() {
               programming and teaching.
             </p>
           </div>
+          <h3 className=" text-3xl mt-4 py-2">Industry Project's</h3>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web1}
-                alt="web1"
-                className="rouded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web2}
-                alt="web2"
-                className="rouded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-            </div>{" "}
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web3}
-                alt="web3"
-                className="rouded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-            </div>{" "}
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web4}
-                alt="web4"
-                className="rouded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web5}
-                alt="web5"
-                className="rouded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web6}
-                alt="web6"
-                className="rouded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-            </div>
+            <ProjectCard
+              img={zappy}
+              alt="project1"
+              projectTitle="Zappy"
+              description="Zappy is a CMS marketing platform that collaborates with various Cybercommerce that provides and manufacture goods. The System was initialize during the pandemic to practice the idea of contact less purchase of products."
+            />
+            <ProjectCard
+              img={web2}
+              alt="Kuko ni Bea"
+              projectTitle="Kuko ni Bea"
+              description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo vel quis aspernatur corporis. Similique odit atque magni nesciunt, expedita sunt ad? Repellat perferendis illum ut nesciunt perspiciatis earum sequi magni?"
+              reverse={true}
+            />
           </div>
         </section>
       </main>
