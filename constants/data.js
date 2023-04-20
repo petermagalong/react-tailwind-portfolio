@@ -15,7 +15,7 @@ export const project = [
       "Planet Scale",
       "Prisma",
     ],
-    img: "/projects/pie.png",
+    img: "/pie.png",
     linkDemo: "https://pie.com.ph/",
     reverse: false,
   },
