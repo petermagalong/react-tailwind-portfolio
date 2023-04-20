@@ -174,8 +174,8 @@ export default function Home() {
             of security.
           </p>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap ">
-            {project.map((project) => {
-              return <ProjectCard {...project} isIndustry={true} />;
+            {project.map((project, key) => {
+              return <ProjectCard key={key} {...project} isIndustry={true} />;
             })}
           </div>
         </section>
