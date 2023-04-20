@@ -15,7 +15,7 @@ export const project = [
       "Planet Scale",
       "Prisma",
     ],
-    img: "/../public/projects/pie.png",
+    img: "/projects/pie.png",
     linkDemo: "https://pie.com.ph/",
     reverse: false,
   },
@@ -33,7 +33,7 @@ export const project = [
       "DynamoDb",
       "Elastic Web Search",
     ],
-    img: "/../public/projects/zappy.png",
+    img: "/public/projects/zappy.png",
     linkDemo:
       "https://www.shop.zappy.com.ph/zagana?fbclid=IwAR3p65DeT9t_DRPM5ajkh-OIRzXtDvIrr3CavJfH1StbO0l6PJFL_Le-Bro",
     reverse: true,
@@ -53,7 +53,7 @@ export const project = [
       "AWS Services",
       "TypeORM",
     ],
-    img: "/../public/projects/fanlife.png",
+    img: "/public/projects/fanlife.png",
     linkDemo: "",
     toolTipLink:
       "https://www.globe.com.ph/about-us/newsroom/917ventures/fanlife-ultimate-marketplace-k-pop-k-drama-fans.html",
@@ -66,7 +66,7 @@ export const project = [
     projectDescription:
       "FEBC PH Stream is the official radio | audio streaming app of FEBC Philippines. You can now listen to any of the FEBC Radio Stations and FEBC Streaming Audio Channels using your mobile phone, with an `easy to use` interface.",
     application: ["Xamarin", "Maven", "Node js", "Express", "MongoDB"],
-    img: "/../public/projects/febc.png",
+    img: "/public/projects/febc.png",
     linkDemo:
       "https://play.google.com/store/apps/details?id=com.fourello.febcphstream&gl=US",
     reverse: true,
@@ -78,7 +78,7 @@ export const project = [
     projectDescription:
       "UnionBank App is a banking app that will help you without ever having to step into a branch. Easily manage your accounts, your cards, transfer funds, pay your bills and more, with just the tap of your finger.",
     application: ["API Development", "Scripting", "PL/SQL", "Finacle"],
-    img: "/../public/projects/ub.png",
+    img: "/public/projects/ub.png",
     linkDemo:
       "https://play.google.com/store/apps/details?id=com.unionbankph.online&hl=en&gl=US&pli=1",
     reverse: false,
